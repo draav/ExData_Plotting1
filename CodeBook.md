@@ -1,0 +1,1 @@
+Due to the large size of the txt file, I have written the script so that the default is to take from the parent directory, but it will also accept and argument that will be the directory of the txt file.

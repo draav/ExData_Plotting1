@@ -1,6 +1,6 @@
-readData <- function()
+readData <- function(fileDir = "../household_power_consumption.txt")
 {
-        t <- read.table("../household_power_consumption.txt",header = TRUE,sep = ";")
+        t <- read.table(fileDir,header = TRUE,sep = ";")
         
         #subset to only select two days of data
         t <- t[t$Date=="2/2/2007"|t$Date=="1/2/2007", ]
